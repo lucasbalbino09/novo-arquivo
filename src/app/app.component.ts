@@ -26,6 +26,16 @@ export class AppComponent {
       nome: "Arraste me para o Inferno ",
       imagem: "https://play-lh.googleusercontent.com/vNbwmC7k3QxjSMqcyqFWSrFx_IXGSmVWhT2b1wMR7pwrKBo9_6n6fBWnprjhu1bAZTzr1g=w240-h480-rw",
       descricao: "O diretor Sam Raimi retorna às raízes do cinema de terror com a história original de uma jovem amaldiçoada por uma cigana idosa que deve se livrar de um botão amaldiçoado antes de ser literalmente arrastada para o Inferno por um espírito maligno"
+    },
+    {
+      nome: "Aterrorizante 2 ",
+      imagem: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTbi-pyCAj_OcVlU9TrC4edM-yufIwoOvhs_JPE888hLfKfyqqP",
+      descricao: "Terrifier 2 se passa um ano depois do primeiro filme. Acordando no necrotério após seu massacre na noite de Halloween do ano passado, Art the Clown (David Howard Thornton) está de volta no tempo para o Dia da Reforma! Desta vez, ele está de olho na jovem Sienna (Lauren LaVera) e seu irmão mais novo, Jonathan (Elliott Fullam)."
+    },
+    {
+      nome: "Arraste me para o Inferno ",
+      imagem: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSXCY7HFTGa8DY30ur2Evn-n75SuMKSJskFecEtBGaqslrWv9sk",
+      descricao: "De férias no México, duas irmãs estão prestes a passar pelos momentos de maior tensão em sua vida: presas em uma gaiola de tubarões a 47 metros de profundidade no oceano, eles terão que lutar contra o tempo para permanecerem vivas."
     }
 
   ];
@@ -41,9 +51,19 @@ export class AppComponent {
       descricao: "O atirador Marksman Bob Lee Swagger deixa o exército e desaparece sem deixar rastros. Ele volta para impedir o assassinato do Presidente dos Estados Unidos, mas é enganado e passa a ser perseguido como criminoso."
     },
     {
+      nome: "o Protetor",
+      imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Q_2O2RMd_DvQ_Ka4H6wyx5whCvprxwMx2LNChGnKCOAI49F5",
+      descricao: "O Protetor: Capítulo Final é o terceiro - e último - filme da franquia O Protetor, iniciada em 2014 e inspirada pela série homônima estrelada por Edward Woodward nos anos 80. No terceiro capítulo da saga, desde que desistiu de sua vida como assassino do governo, Robert McCall (Denzel Washington) não consegue descansar o suficiente."
+    },
+    {
       nome: "Os Mercenarios",
       imagem: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBqTkE1t6UOi3_NboIpsRuZlU2mCRApy0Qpu2wJrgt4LQLXuNg",
       descricao: "Um grupo de mercenários, liderado por Barney Ross e composto de seus homens de confiança, aceita uma missão que parece ser rotineira: uma operação secreta, a mando da Igreja, para invadir o país sul-americano de Vilena e derrubar seu ditador."
+    },
+    {
+      nome: "Sete Homens e um Destino",
+      imagem: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRy3eLIUj1GhW6hLeu46v4GrOgyAzaVggWKvXiuFAr0zqIUo0np",
+      descricao: "Os habitantes de um pequeno vilarejo sofrem com os constantes ataques de um bando de pistoleiros. Revoltada com os saques, Emma Cullen (Haley Bennett) deseja justiça e pede auxílio ao pistoleiro Sam Chisolm (Denzel Washington), que reúne um grupo especialistas para contra-atacar os bandidos."
     }
 
   ];
@@ -62,7 +82,17 @@ export class AppComponent {
       nome: "A busula de ouro",
       imagem: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTVK5bDIRu-eWTvAZYAYrg0eJvTnjlIs_XdFP4N2UcPKuX_4qlw",
       descricao: "Em A Bússola de Ouro, Lyra Belacqua (Dakota Blue Richards) é uma órfã que foi criada na Universidade Oxford. No mundo em que vive todas as pessoas têm um daemon, ou seja, uma manifestação de sua própria alma em forma animal. Lyra leva uma vida tranqüila até ela e seu daemon, Pantalaimon, descobrirem a existência de uma substância misteriosa chamada Pó."
-    }
+    },
+    {
+      nome: "Dungeons & Dragons: Honra Entre Rebeldes",
+      imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjksKrlzRyNJIXX3d1dKK0Yu39kZZNTJY6-n6qvlqeFppubxPy",
+      descricao: "Em Dungeons & Dragons: Honra Entre Rebeldes, em um mundo repleto de dragões, elfos, anões, orcs e outras criaturas fantásticas"
+    },
+    {
+      nome: "A busula de ouro",
+      imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqktsvtgaPVUUo7hnaik6vmSnnNYRtRb0-hiR2jbbKjYzGPr4",
+      descricao: "Megatubarão 2 é a sequência do filme lançado em 2018. No primeiro longa, na fossa mais profunda do Oceano Pacífico, a tripulação de um submarino fica presa após ser atacada por uma criatura pré-histórica que se achava estar extinta"
+    },
 
   ];
 
