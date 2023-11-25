@@ -1,0 +1,35 @@
+<input type="text" [(ngModel)]="nomedoFilme" placeholder="Selecione o Genero.." name="nomedoFilme">
+
+<div class="menu-filmes">
+  <div [ngSwitch]="nomedoFilme">
+    <div *ngSwitchCase="'Terror'">
+      <ul>
+        <li *ngFor="let medo of terror">
+          <h1>{{medo.nome}}</h1>
+          <img src={{medo.imagem}} alt={{medo.nome}} class="imagem-filme">
+          <p>{{medo.descricao}}</p>
+        </li>
+      </ul>
+    </div>
+    <div *ngSwitchCase="'Ação'">
+      <ul>
+        <li *ngFor="let filmeAcao of acao">
+          <h1>{{filmeAcao.nome}}</h1>
+          <img src={{filmeAcao.imagem}} alt={{filmeAcao.nome}} class="imagem-filme">
+          <p>{{filmeAcao.descricao}}</p>
+        </li>
+      </ul>
+    </div>
+    <div *ngSwitchCase="'Aventura'">
+      <ul>
+        <li *ngFor="let filmedeAventura of aventura">
+          <h1>{{filmedeAventura.nome}}</h1>
+          <img src={{filmedeAventura.imagem}} alt={{filmedeAventura.nome}} class="imagem-filme">
+          <p>{{filmedeAventura.descricao}}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

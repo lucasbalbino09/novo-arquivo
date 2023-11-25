@@ -1,0 +1,9 @@
+.imagem-filme {
+    height: 300px;
+    width: 200px;
+}
+.menu-filmes {
+    display: flex;
+    align-items: center;
+    
+}
